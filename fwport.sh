@@ -1,3 +1,5 @@
+#!/bin/sh
+
 iptables -F
 iptables -X
 iptables -t nat -F
